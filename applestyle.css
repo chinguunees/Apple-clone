@@ -6,18 +6,159 @@
   background-color: #f5f5f7cc;
   display: flex;
   height: 48px;
-  flex-direction: row;
-  justify-content: space-between;
+  width: 390px;
 }
 .headermenu {
   display: flex;
-  height: 60px;
+  height: 48px;
+  justify-content: space-between;
+  gap: 197px;
+}
+.news {
+  color: #1d1d1f;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  width: 328px;
+  height: 37px;
+  align-items: center;
   justify-content: center;
+  flex-direction: column;
+  margin-left: 31px;
+  text-align: center;
 }
-.rightmenu {
-  display: flex;
-  width: auto;
+.newsarea {
+  height: 73px;
+  margin-top: 16px;
 }
-body {
+.body1 {
+  background-image: url(./images/Figure@2x.png);
+  background-size: contain;
+  height: 500px;
+  width: 390px;
   display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  margin-top: 12px;
+}
+.bodytexts {
+  margin-top: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bodytext1 {
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-style: bold;
+  font-weight: 700;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bodytext2 {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4px;
+}
+.bodytext3 {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 241px;
+  height: 53px;
+}
+.bodybutton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 16px;
+}
+.button1 {
+  color: white;
+  font-size: 14px;
+  width: 107px;
+  height: 36px;
+  background-color: #0071e3;
+  border-radius: 99px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button2 {
+  color: white;
+  font-size: 14px;
+  width: 66px;
+  height: 36px;
+  background-color: #0071e3;
+  border-radius: 99px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body2 {
+  background-image: url(./images/Figure2.png);
+  background-size: contain;
+  height: 500px;
+  width: 390px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  margin-top: 12px;
+}
+.bodytexts2 {
+  margin-top: 36px;
+  display: flex;
+  flex-direction: column;
+}
+.bodytexts3 {
+  margin-top: 350px;
+  display: flex;
+  flex-direction: column;
+  height: 147px;
+  width: 241px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 84px;
+}
+.body3 {
+  background-image: url(./images/FigureIpad.png);
+  background-size: contain;
+  height: 500px;
+  width: 390px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  margin-top: 12px;
+}
+.body4 {
+  background-image: url(./images/Figureairpod.png);
+  background-size: contain;
+  height: 500px;
+  width: 390px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  margin-top: 12px;
 }
