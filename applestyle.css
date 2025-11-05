@@ -2,18 +2,35 @@
   margin: 0;
   padding: 0;
 }
+
 .header {
   background-color: #f5f5f7cc;
   display: flex;
   height: 48px;
   width: 390px;
 }
+
+.headerdesktop {
+  display: flex;
+  font-family: "Inter", sans-serif;
+  background-color: #f5f5f7cc;
+  height: 48px;
+  width: 1920px;
+  font-size: 12px;
+  font-weight: 400;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
 .headermenu {
   display: flex;
   height: 48px;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 197px;
 }
+
 .news {
   color: #1d1d1f;
   font-size: 14px;
@@ -40,6 +57,171 @@
   flex-direction: column;
   font-family: "Inter", sans-serif;
   margin-top: 12px;
+}
+.body1desktop {
+  background-image: url(./images/figure16prodesk.png);
+  background-size: contain;
+  height: 692px;
+  width: 1920px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  margin-top: 12px;
+  display: none;
+}
+.body2desktop {
+  background-image: url(./images/figure16desk.png);
+  background-size: contain;
+  height: 692px;
+  width: 1920px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  margin-top: 12px;
+  display: none;
+}
+.body3desktop {
+  background-size: contain;
+  height: 580px;
+  width: 1920px;
+  display: flex;
+  font-family: "Inter", sans-serif;
+  margin-top: 12px;
+  display: none;
+}
+.body4desktop {
+  background-size: contain;
+  height: 692px;
+  width: 1920px;
+  display: flex;
+  font-family: "Inter", sans-serif;
+  margin-top: 12px;
+  display: none;
+}
+.body3pad {
+  display: flex;
+  width: 768px;
+  height: 490px;
+  display: none;
+}
+.body3pads {
+  background-image: url(./images/FigureIpad.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 390px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  margin-top: 12px;
+}
+.body4pads {
+  background-image: url(./images/Figureairpod.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 390px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  margin-top: 12px;
+}
+.body5pads {
+  background-image: url(./images/figurewatch.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 390px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  margin-top: 12px;
+}
+.body6pads {
+  background-image: url(./images/figuremacbook.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 390px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  font-family: "Inter", sans-serif;
+  margin-top: 12px;
+}
+.body3pc {
+  background-image: url(./images/figureipaddesk.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 580px;
+  width: 960px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+}
+.body4pc {
+  background-image: url(./images/figureairpoddesk.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 580px;
+  width: 960px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+.body5pc {
+  background-image: url(./images/figurewatchdesk.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 580px;
+  width: 960px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+.body6pc {
+  background-image: url(./images/figuremacbookdesk.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 580px;
+  width: 960px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+.bodygift {
+  background-image: url(./images/figuregift.png);
+  height: 692px;
+  width: 1920px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  margin-top: 12px;
+  display: none;
+}
+.bodygifttext {
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-style: bold;
+  font-weight: 700;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 446px;
+}
+.bodytextsdesktop {
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
 }
 .bodytexts {
   margin-top: 350px;
@@ -115,6 +297,17 @@
   justify-content: center;
   align-items: center;
 }
+.button3 {
+  color: white;
+  font-size: 14px;
+  width: 150px;
+  height: 36px;
+  background-color: #0071e3;
+  border-radius: 99px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .body2 {
   background-image: url(./images/Figure2.png);
   background-size: contain;
@@ -140,6 +333,28 @@
   justify-content: center;
   margin-bottom: 84px;
 }
+.bodytexts4 {
+  margin-top: 47px;
+  display: flex;
+  flex-direction: column;
+  height: 168px;
+  width: 257px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 84px;
+}
+.bodytexts5 {
+  margin-top: 301px;
+  display: flex;
+  flex-direction: column;
+  height: 152px;
+  width: 314px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 84px;
+  text-align: center;
+}
 .body3 {
   background-image: url(./images/FigureIpad.png);
   background-size: contain;
@@ -161,4 +376,169 @@
   align-items: center;
   font-family: "Inter", sans-serif;
   margin-top: 12px;
+}
+.body5 {
+  background-image: url(./images/figurewatch.png);
+  background-size: contain;
+  height: 500px;
+  width: 390px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  margin-top: 12px;
+}
+.body6 {
+  background-image: url(./images/figuremacbook.png);
+  background-size: contain;
+  height: 500px;
+  width: 390px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  margin-top: 12px;
+}
+.body7 {
+  background-image: url(./images/figurebusiness.png);
+  background-size: contain;
+  height: 500px;
+  width: 390px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  margin-top: 12px;
+}
+.body8 {
+  background-image: url(./images/figuredeals.png);
+  background-size: contain;
+  height: 500px;
+  width: 390px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  margin-top: 12px;
+}
+.body9 {
+  background-image: url(./images/figuretrade.png);
+  background-size: contain;
+  height: 500px;
+  width: 390px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  margin-top: 12px;
+}
+
+@media screen and (min-width: 391px) {
+  #kebab {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    width: 768px;
+  }
+  .headermenu {
+    gap: 575px;
+  }
+  .newsarea {
+    height: 48px;
+    width: 768px;
+  }
+  .news {
+    width: 768px;
+  }
+  .body1 {
+    display: none;
+  }
+  .body2 {
+    display: none;
+  }
+  .body3 {
+    display: none;
+  }
+  .body4 {
+    display: none;
+  }
+  .body5 {
+    display: none;
+  }
+  .body6 {
+    display: none;
+  }
+  .body1desktop {
+    display: flex;
+    width: 768px;
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .body2desktop {
+    display: flex;
+    width: 768px;
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .body3pad {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .headerdesktop {
+    display: flex;
+  }
+  .header {
+    display: none;
+  }
+  .newsarea {
+    height: 48px;
+    width: 1920px;
+  }
+  .news {
+    width: 1920px;
+  }
+  .body1 {
+    display: none;
+  }
+  .body1desktop {
+    display: flex;
+    width: 1920px;
+  }
+  .body2desktop {
+    display: flex;
+    width: 1920px;
+  }
+  .bodygift {
+    display: flex;
+  }
+  .body3 {
+    display: none;
+  }
+  .body4 {
+    display: none;
+  }
+  .body5 {
+    display: none;
+  }
+  .body6 {
+    display: none;
+  }
+  .body3desktop {
+    display: flex;
+    width: 1920px;
+  }
+  .body3pad {
+    display: none;
+  }
+  .body4desktop {
+    display: flex;
+    width: 1920px;
+  }
 }
